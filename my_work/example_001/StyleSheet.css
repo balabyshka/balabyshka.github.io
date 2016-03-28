@@ -1,0 +1,511 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: url(images/fon.jpg) repeat;
+    font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.94em;
+    line-height: 135%;
+}
+
+#allmain {
+    width: 1200px;
+    height: auto;
+    /*position: absolute;*/
+    margin: auto;
+}
+
+aside, nav, footer, header, section, wrapper, content {
+    display: block;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+    /*----------------------------------
+     
+        1. header
+                headerMain
+                topMenu
+                headerMainPic
+
+        2. content
+                conLeft
+                conRight
+                    -aboutComp
+                    -whyUs
+                    -meet
+                    -news
+                clients
+        3. footer
+                footerLeft
+                footerRight
+                
+-----------------------------------*/
+
+
+.header {
+
+}
+
+        .header_call {
+
+        }
+
+            .header_call .tel {
+                    float: left;
+                    background-color: #842c2d;
+                    padding: 10px 10px;
+                    margin-top: 106px;
+            }
+
+            .header_call .telText {
+                    margin-top: 108px;
+                    padding-left: 5px;
+                    font-size: 18px;
+                    color: #5a6b7b;
+                    float: left;
+                    }
+                                              
+        .logo {
+        text-align: center;
+        padding: 30px 0 28px 0;
+        }
+        
+
+        .header_contact {
+            text-align: right;
+        }
+
+            .mail {
+                margin: 25px 0;
+                font-size: 12px;
+                color: #5a6b7b;
+            }
+
+            .mailLangv :last-child {
+                color: #852e2d;
+            }
+
+            .mail .mailEmail {
+                margin-top: 100px;
+                color: #852e2d;
+            }
+
+            .mail .mailTel {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+
+    @media screen and (max-width: 991px) {
+                .header_call .tel {
+                    padding: 2px 2px;
+                    margin-top: 140px;
+                }
+                .header_call .telText {
+                    margin-top: 142px;
+                }
+                .telText p {
+                    font-size: 12px;
+                    margin:0;
+                }
+                .logo {
+                text-align: center;
+                padding: 20px 0 10px 0;
+                }
+                 .mail .mailTel {
+                      font-size: 12px;
+            }
+    }
+
+
+          
+
+
+.topMenu {
+            height: 57px;
+            width: inherit;
+            /*position: absolute;*/
+            left: 0px;
+            border: 0px solid #1FA2E1;
+            background: #842c2b;
+        }
+
+                .topMenu ul li {
+                    background: url(images/line.png) 0px 0px no-repeat;
+                    float: left;
+                    height: 57px;
+                    width: 20%;
+                    text-align: center;
+                }
+
+                .topMenu ul {
+                    padding-left: 0px;
+                }
+
+                    .topMenu ul li a {
+                        margin-top: 0px;
+                        font-weight: 100;
+                        border-right: 0px solid #adadad;
+                        display: block;
+                        color: #fff;
+                        text-decoration: none;
+                        line-height: 20px;
+                        font-size: 18px;
+                        padding: 16px 20px 21px 20px;
+                    }
+
+                        .topMenu ul li a:hover {
+                            background: #fff;
+                            color: #555;
+                        }
+
+
+.headerMainPickche {
+    background: url(images/main_img.png) no-repeat;
+    height: 400px;
+    width: inherit;
+}
+
+ @media screen and (max-width: 991px) {
+        .headerMainPickche {
+            height: 300px;
+        }
+}
+
+            .shadow {
+                background: url(images/shedow.png) no-repeat;
+                height: 194px;
+                width: 382px;
+                text-transform: uppercase;
+                color: white;
+                float: right;
+                padding-top: 35px;
+                padding-right: 35px;
+                text-align: center;
+                margin-top: 85px;
+                font-size: 20px;
+            }
+
+            .shadowText {
+                margin-left: 29px;
+            }
+
+            .shadowDiv {
+                text-transform: uppercase;
+                width: 325px;
+                height: 65px;
+                background-color: #842c2b;
+                margin-left: 29px;
+            }
+            .shadowDiv p {
+                text-align: center;
+                padding-top: 25px;
+                color: #eaecee;
+            }
+
+    @media screen and (max-width: 991px) {
+        .shadow {
+            height: 150px;
+            width: 300px;
+        }
+
+        .shadowText {
+            font-size: 70%;
+        }
+        .shadowDiv {
+                width: 200px;
+                height: 40px;
+                margin-left: 40px;        
+            }
+            .shadowDiv p {
+                font-size: 70%;
+                padding-top: 15px;
+            }
+    }
+
+    @media screen and (max-width: 767px) {
+        .shadowDiv {
+            margin-left: 40px;
+        }
+    }
+
+.content {
+    background-color: #f8f9fa;
+}
+
+
+                .infoM {
+                    /*width: 270px;*/
+                    padding: 10px;
+                    border-bottom: 2px solid #ccd2d9;
+                    border-left: 4px solid #842c2d;
+                    font-weight: bold;
+                }
+                .infoL {
+                    /*width: 270px;*/
+                    padding: 10px;
+                    border-bottom: 2px solid #ccd2d9;
+                    border-left: 4px solid #ccd2d9;
+                }
+
+         @media screen and (max-width: 767px) {
+            .leftSide {
+                /*visibility: hidden;*/
+                display: none;
+            }
+         }
+
+
+
+    .aboutComp{
+     width: auto;
+    }
+                .aboutCompHeader {
+                    width: auto;
+                    border-bottom: 2px solid #ccd2d9;
+                    text-transform: uppercase;
+                    padding: 20px 0 0 0;
+                    font-size: 150%;
+                    clear: both;
+                }
+
+                .aboutCompFoto {
+                    height: 295px;
+                    width: 274px;
+                    float: left;
+                    padding-top: 20px;
+                    margin-right: 5px;
+                }
+
+                .aboutCompText {
+                    width: auto;
+                    padding: 20px 0 0;
+                    font-size: 150%;
+                    
+                }
+
+@media screen and (max-width: 1199px) {
+    .aboutCompFoto {
+        height: auto;
+    }
+}
+
+.whyUs {
+    width: auto;
+    height: auto;
+}
+
+        .whyUsHeader {
+            width: auto;
+            border-bottom: 2px solid #ccd2d9;
+            text-transform: uppercase;
+            padding: 30px 0 0 0;
+            font-size: 150%;
+            clear: both;    
+        }
+
+        .whyUsFoto {
+            height: 295px;
+            width: 274px;
+            float: right;
+            padding-top: 20px;
+        }
+
+        .whyUsText {
+            width: auto;
+            padding: 20px 0 0 0;
+            font-size: 150%;
+        }
+@media screen and (max-width: 1199px) {
+    .whyUsFoto {
+        height: auto;
+    }
+}
+
+
+.meet {
+    padding-top: 40px;
+    height: 65px;
+    /*width: inherit;*/
+    clear: both;
+    
+}
+
+        .meet p {
+            /*margin: 0 5px 0 0;*/
+            color: #eaeeec;
+        }
+
+        .meetLeft {
+            background: #5a6b7b;
+            float: left;
+            width: 68%;
+            height: 65px;
+            /*height: 61px; */
+            text-align: left;
+            /*padding-top: 14px;*/
+            /*padding-left: 15px;*/
+            text-align: left;
+            font-size: 150%;
+            padding: 12px 10px;
+
+        }
+
+        .meetRight {
+            background: #842c2b;
+            text-transform: uppercase;
+            float: left;
+            width: 32%;
+            height: 65px;
+            /*height: 45px; */
+            /*padding-top: 30px;*/
+            text-align: center;
+            font-size: 150%;
+        }
+        .meetRight p {
+            margin-top: 9%;
+        }
+        @media screen and (max-width: 767px) {
+            .meetRight p {
+                margin-top: 23px;
+            }
+        }
+
+
+
+.newsContainer {
+    width: 100%;
+}
+.newsHeader {
+    width: auto;
+    border-bottom: 2px solid #ccd2d9;
+    text-transform: uppercase;
+    padding: 20px 0 0 0;
+    font-size: 150%;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.news1 {
+    float: left;
+}
+
+.news1 p {
+    font-size: 120%;
+}
+
+@media screen and (max-width: 1199px) {
+    .news1 img {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .news1 {
+        text-align: center;
+    }    
+    .newsContainer {
+        /*text-align: center;*/
+    }
+}
+
+
+.clients {
+    background-color: #5a6b7b;
+    width: auto;
+    height: 130px;
+    clear: both;
+}
+
+        .clientsText {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 150%;
+            color: #eaeeec;
+        }
+
+            .clientsText p {
+                margin-top: 55px;
+            }
+
+
+        .clientsArrowLeft {
+            text-align: right;
+            line-height: 130px;
+        }
+        
+        .clientsFoto1 {
+            text-align: center;
+            line-height: 130px;
+        }
+
+        .clientsArrowRight {
+            text-align: left;
+            line-height: 130px;
+        }
+ @media screen and (max-width: 991px) {
+    .clientsFoto1 img {
+        width: 100%;
+    }
+ }
+
+
+.footer {
+    background-color: #842c2b;
+    width: 100%;
+    clear: both;
+    height: 60px;
+}
+
+.footer .row {
+    padding: 15px 10px;
+    font-size: 150%;
+}
+
+        .footerLeft {
+            float: left;
+            text-align: left;
+            width: 50%;
+            color: white;
+           
+        }
+
+        .footerRight {
+            float: left;
+            text-align: right;
+            width: 50%;
+            color: white;
+            
+        }
+
+        @media screen and (max-width: 1199px) {
+            
+         }
+
+         @media screen and (max-width: 991px) {
+           
+         }
+
+         @media screen and (max-width: 767px) {
+           
+         }
+
+         @media screen and (max-width: 479px) {
+           
+         }
