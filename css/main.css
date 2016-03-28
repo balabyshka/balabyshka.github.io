@@ -96,17 +96,17 @@ body {
 	height: 200px;
 }
 
-/*.exampleFoto2 {
-	background: url(../image/example_001.png) no-repeat;
+.exampleFoto2 {
+	background: url(../image/example_002.png) no-repeat;
 	background-size: cover;
 	height: 200px;
-}*/
+}
 
-/*.exampleFoto3 {
-	background: url(../image/example_001.png) no-repeat;
+.exampleFoto3 {
+	background: url(../image/example_003.png) no-repeat;
 	background-size: cover;
 	height: 200px;
-}*/
+}
 
 /*.exampleFoto4 {
 	background: url(../image/example_001.png) no-repeat;

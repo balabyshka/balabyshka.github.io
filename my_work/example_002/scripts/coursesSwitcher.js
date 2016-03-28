@@ -1,0 +1,27 @@
+﻿var app = angular.module("CoursesSwitcherApp", []);
+
+app.controller("CoursesSwitcherAppCtrl", function ($scope) {
+    $scope.items = [{ specialty: "javaDeveloper", name: "Frontend базовый", level: "complexityOne", durationDay: "1", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "1950", currency: "UAH" },
+        { specialty: "javaDeveloper webFrontendDeveloper dataBaseAdministrator", name: "JavaScript базовый", level: "courseLevel complexityTwo", durationDay: "1", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "javaDeveloper", name: "Frontend утренний", level: "complexityThree", durationDay: "2", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaUiDeveloper", name: "JavaScript базовый", level: "complexityTwo", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "javaUiDeveloper", name: "Frontend утренний", level: "complexityOne", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "androidDeveloper", name: "JavaScript базовый", level: "complexityThree", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "androidDeveloper", name: "Frontend утренний", level: "complexityOne", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaSolutionArchitectDeveloper dataBaseAdministrator", name: "базовый", level: "courseLevel complexityTwo", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "javaSolutionArchitectDeveloper dataBaseAdministrator", name: "Frontend утренний", level: "complexityTwo", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaSolutionArchitectDeveloper", name: "JavaScript базовый", level: "complexityTwo", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "webFrontendDeveloper webFrontendDeveloper", name: "Frontend утренний", level: "complexityTwo", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "webFrontendDeveloper", name: "JavaScript базовый", level: "complexityOne", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "webFrontendDeveloper", name: "Frontend утренний", level: "complexityThree", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "webFrontendDeveloper", name: "Frontend утренний", level: "complexityThree", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "phpWebBackendDeveloper dataBaseAdministrator", name: "JavaScript базовый", level: "courseLevel complexityTwo", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "phpWebBackendDeveloper", name: "Frontend утренний", level: "complexityOne", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaWebBackendDeveloper", name: "Frontend утренний", level: "complexityThree", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaWebBackendDeveloper dataBaseAdministrator", name: "JavaScript базовый", level: "complexityTwo", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "javaWebBackendDeveloper", name: "Frontend утренний", level: "complexityOne", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "javaWebBackendDeveloper", name: "Frontend утренний", level: "complexityTwo", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "dataBaseAdministrator", name: "JavaScript базовый", level: "complexityOne", durationDay: "17", dayDescription: "дней", durationHour: "34", hourDescription: "часа", price: "2650", currency: "UAH" },
+        { specialty: "dataBaseAdministrator", name: "Frontend утренний", level: "complexityThree", durationDay: "9", dayDescription: "дней", durationHour: "18", hourDescription: "часов", price: "2550", currency: "UAH" },
+        { specialty: "dataBaseAdministrator", name: "JavaScript утренний", level: "complexityTwo", durationDay: "10", dayDescription: "дней", durationHour: "20", hourDescription: "часов", price: "1950", currency: "UAH" }];
+});

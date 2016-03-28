@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="CoursesSwitcherApp">
+<head>
+    <title>Курсы программирования и цены</title>
+    <meta charset="utf-8" />
+    <link href="../CSS/stylesSpecialties.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="mainContainer" ng-controller="CoursesSwitcherAppCtrl" ng-cloak>
+        <div id="headerBack">
+            <div id="header">
+                <div id="logoUp">
+
+                </div>
+                <div id="naviContainer">
+                    <div id="firstLineNavi">
+                        <div class="contactButton">
+                            <span>Оформить заявку</span>
+                        </div>
+                        <div id="contacts">
+                            <span>
+                                +38 063 063 63 63
+                            </span>
+                            &nbsp;
+                            <img src="../pictures/rectangleBlue.png" />
+                            &nbsp;
+                            <span>
+                                skype:site.welcome
+                            </span>
+                        </div>
+                    </div>
+                    <div id="secondLineNavi">
+                        <div>
+                            Курсы программирования и цены
+                        </div>
+                        <div>
+                            Расписание
+                        </div>
+                        <div>
+                            Компаниям
+                        </div>
+                        <div>
+                            Обучение
+                        </div>
+                        <div>
+                            Новости
+                        </div>
+                        <div>
+                            Контакты
+                        </div>
+                        <div>
+                            О нас
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="imageFon">
+            <div class="imageSlogan">
+                Курсы <br> программирования <br> и цены
+            </div>
+        </div>
+        <div class="contentContainer">
+            <div class="contentHeader">
+
+                <img src="../pictures/smallbook.png" class="headerPic headerText" />
+
+                <div class="promo headerText">
+                    Сертификаты по завершению обучения
+                </div>
+                <a href="#">
+                    <div class="promoDetails headerText">
+                        Узнать больше
+                    </div>
+                </a>
+            </div>
+            <div class="contentBody">
+                Если Вы новичок в программировании, обратитесь за консультацией в <a href="#">службу поддержки </a>или воспользуйтесь <a href="#">Картой специальностей</a>, чтобы спланировать последовательное изучение программирования и сопутствующих технологий от простого к сложному.<br /><br />
+    Учебный курс включает в себя: <br /><br />
+    <ul>
+        <li class="red">
+            <span>
+                обучение в мини-группе в современной мультимедийной аудитории, предоставляется ноутбук, блокнот, ручка;
+            </span>
+        </li>
+        <li class="red">
+            <span>
+                материалы курса в электронном виде: краткий конспект каждого занятия, практические примеры, презентации;
+            </span>
+        </li>
+        <li class="red">
+            <span>
+                онлайн тестирование с целью проверки усвоения материала после каждого занятия и итоговое по всему курсу;
+            </span>
+        </li>
+        <li class="red">
+            <span>
+                сертификат о прохождении курса (в случае успешной сдачи финального теста)
+            </span>
+        </li>
+    </ul>
+</div>
+
+            <div id="coursesTitle">
+                <img src="../pictures/gear.png" />
+                &nbsp;ТРЕНИНГИ И КУРСЫ ПРОГРАММИРОВАНИЯ
+            </div>
+            <div class="coursesHeader">
+                <div class="courseNameHeader">
+                    Название курса
+                </div>
+                <div class="courseLevelHeader">
+                    Уровень сложности
+                </div>
+                <div class="courseDurationHeader">
+                    Кол-во часов
+                </div>
+                <div class="coursePriceHeader">
+                    Цена
+                </div>
+            </div>
+            <div class="courses {{item.specialty}}" ng-repeat="item in items">
+                <div class="courseName">
+                    {{item.name}}
+                </div>
+                <div class="courseLevel {{item.level}}">
+
+                </div>
+                <div class="courseDuration">
+
+                    <!--{{item.durationDay}} {{item.dayDescription}}/-->{{item.durationHour}} {{item.hourDescription}}
+
+                </div>
+                <div class="coursePrice">
+                    {{item.price}} <span>{{item.currency}}</span>
+                </div>
+            </div>
+
+            <div class="remark">
+                Пробное занятие предоставляется только на курсы, которые длятся 10 и более часов.
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerUp">
+
+            </div>
+            <div id="footerDown">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../scripts/jquery-1.8.0.js"></script>
+    <script src="../scripts/angular.js"></script>
+    <script src="../scripts/coursesSwitcher.js"></script>
+    <script src="../scripts/specSelector.js"></script>
+</body>
+</html>

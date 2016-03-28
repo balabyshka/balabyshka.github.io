@@ -1,0 +1,565 @@
+﻿@font-face {
+    font-family: 'Ubuntu_Light_Regular';
+    src: url('../Fonts/Ubuntu_Light_Regular.ttf') format('truetype');
+    font-family: 'Ubuntu_Light_Bold';
+    src: url('../Fonts/Ubuntu_Light_Bold.ttf') format('truetype');
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#headerBack {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0,19,20);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+#header {
+    width: 1094px;
+    height: 100px;
+    background-color: rgb(0,19,20);
+    display: inline-block;
+}
+
+
+#image {
+    width: 100%;
+    height: 200px;
+    background-image: url('../pictures/slider1.jpg');
+    /*background-origin: content-box;*/
+    background-position-y: -265px;
+}
+
+#imageFon {
+    width: 100%;
+    height: 200px;
+    background-image: url('../pictures/slider6.jpg');
+    /*background-origin: content-box;*/
+    /*background-position-y: -265px;*/
+}
+
+.imageSlogan {
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(255,255,255);
+    position: absolute;
+    text-align: left;
+    left: 260px;
+    top: 129px;
+    width: 360px;
+    font-size: 36pt;
+}
+
+#logoUp {
+    background-image: url('../pictures/Logohead.jpg');
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 293px;
+    height: 76px;
+    margin-right: 64px;
+    float: left;
+}
+
+#naviContainer {
+    width: 737px;
+    height: 74px;
+    margin-top: 12px;
+    float: left;
+}
+
+#firstLineNavi {
+    width: 737px;
+    height: 36px;
+}
+
+.contactButton {
+    width: 174px;
+    height: 34px;
+    border: 1px solid rgb(143,145,145);
+    float: left;
+    color: rgb(237,236,236);
+    font-size: 12pt;
+    display: table;
+    font-family: Ubuntu_Light_Regular;
+}
+
+    .contactButton:hover {
+        color: rgb(214,88,33);
+        border: 1px solid rgb(214,88,33);
+    }
+
+    .contactButton span {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+#contacts {
+    margin-left: 231px;
+    width: 330px;
+    float: left;
+    color: rgb(237,236,236);
+    font-size: 12pt;
+    display: table;
+    font-family: Ubuntu_Light_Regular;
+}
+
+
+
+    #contacts span {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+#secondLineNavi {
+    width: 737px;
+    height: 40px;
+}
+
+    #secondLineNavi div {
+        margin-bottom: 9px;
+        margin-top: 19px;
+        height: 40px;
+        color: rgb(237,236,236);
+        font-size: 11pt;
+        float: left;
+        margin-right: 17px;
+        font-family: Ubuntu_Light_Regular;
+        text-decoration: underline;
+    }
+
+        #secondLineNavi div:hover {
+            color: rgb(214,88,33);
+            text-decoration: overline;
+        }
+
+.contentContainer {
+    width: 1094px;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    padding-top: 37px;
+}
+
+.contentHeader {
+    width: 1094px;
+    height: 28px;
+    border-top: 1px solid rgb(207,207,207);
+    border-bottom: 1px solid rgb(207,207,207);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.headerText {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 10px;
+    float: left;
+}
+
+.promo {
+    padding-right: 21px;
+    border-right: 1px solid rgb(207,207,207);
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+}
+
+.promoDetails {
+    padding-left: 11px;
+    color: rgb(214,88,33);
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+}
+
+.contentBody {
+    float: left;
+    width: 1094px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 15pt;
+    color: rgb(102,102,102);
+    font-family: Ubuntu_Light_Regular;
+}
+
+.remark {
+    float: left;
+    width: 1094px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 13pt;
+    color: rgb(102,102,102);
+    font-family: Ubuntu_Light_Regular;
+}
+
+.buttonsContainer {
+    width: 1094px;
+    height: 108px;
+    float: left;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+li span {
+    color: rgb(102,102,102);
+}
+
+.red {
+color: rgb(214,88,33);
+margin-left:20px;
+}
+
+.specialtiesButton {
+    height: 21px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(195,195,195);
+    float: left;
+    font-size: 13pt;
+    color: rgb(242,242,242);
+    font-family: Ubuntu_Light_Regular;
+    display: table;
+    padding: 14px;
+}
+
+#javaDeveloper:hover {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaDeveloper.active {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaUiDeveloper:hover {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaUiDeveloper.active {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#androidDeveloper:hover {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#androidDeveloper .active {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaSolutionArchitectDeveloper:hover {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaSolutionArchitectDeveloper.active {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#webFrontendDeveloper:hover {
+    background-color: #e9b947;
+    color: rgb(236,239,239);
+}
+
+#webFrontendDeveloper.active {
+    background-color: #e9b947;
+    color: rgb(236,239,239);
+}
+
+#phpWebBackendDeveloper:hover {
+    background-color: #5f7db1;
+    color: rgb(236,239,239);
+}
+
+#phpWebBackendDeveloper.active {
+    background-color: #5f7db1;
+    color: rgb(236,239,239);
+}
+
+#javaWebBackendDeveloper:hover {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#javaWebBackendDeveloper.active {
+    background-color: #4d8f93;
+    color: rgb(236,239,239);
+}
+
+#dataBaseAdministrator:hover {
+    background-color: #5f7db1;
+    color: rgb(236,239,239);
+}
+
+#dataBaseAdministrator.active {
+    background-color: #5f7db1;
+    color: rgb(236,239,239);
+}
+
+#specialtyTitle {
+    float: left;
+    color: rgb(68,134,137);
+    font-size: 20pt;
+    font-family: Ubuntu_Light_Regular;
+}
+
+#coursesTitle {
+    float: left;
+    color: rgb(68,134,137);
+    font-size: 17pt;
+    font-family: Ubuntu_Light_Regular;
+    margin-bottom:8px;
+}
+
+.courses {
+    float: left;
+    width: 1094px;
+    height: 28px;
+    border-bottom: 1px solid rgb(207,207,207);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.coursesHeader {
+    float: left;
+    width: 1094px;
+    height: 28px;
+    border-bottom: 1px solid rgb(207,207,207);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px solid rgb(207,207,207);
+}
+
+.coursesFooter {
+    float: left;
+    width: 1094px;
+    height: 28px;
+    border-bottom: 1px solid rgb(207,207,207);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.courseName {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    float: left;
+    width: 593px;
+    text-align: left;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(214,88,33);
+}
+
+    .courseName a {
+        text-decoration: none;
+        color: rgb(214,88,33);
+    }
+    .contentBody a {
+        text-decoration: none;
+        color: rgb(214,88,33);
+    }
+
+.courseNameHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    float: left;
+    width: 593px;
+    text-align: left;
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(57,57,57);
+}
+
+.courseNameFooter {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    float: left;
+    width: 593px;
+    text-align: left;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Bold;
+    color: rgb(136,136,136);
+}
+
+.courseLevelHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 175px;
+    text-align: center;
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(57,57,57);
+}
+
+.courseLevel {
+    height: 28px;
+    float: left;
+    width: 175px;
+    text-align: center;
+}
+
+.complexityOne {
+    background-image: url('../pictures/complexityOne.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.complexityTwo {
+    background-image: url('../pictures/complexityTwo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.complexityThree {
+    background-image: url('../pictures/complexityThree.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.courseDurationHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 190px;
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(57,57,57);
+}
+
+.courseDuration {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 190px;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(102,102,102);
+}
+
+.courseDurationFooter {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 190px;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Bold;
+    color: rgb(102,102,102);
+}
+
+.coursePriceHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 126px;
+    font-size: 14pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(57,57,57);
+}
+
+.coursePrice {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 126px;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(68,134,137);
+}
+
+.coursePriceFooter {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    width: 126px;
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Bold;
+    color: rgb(68,134,137);
+}
+
+.coursePrice span {
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Regular;
+    color: rgb(102,102,102);
+}
+
+.coursePriceFooter span {
+    font-size: 13pt;
+    font-family: Ubuntu_Light_Bold;
+    color: rgb(102,102,102);
+}
+
+#buttonDetails {
+    background-color: rgb(214,88,33);
+    color: rgb(254,254,254);
+    font-size: 24pt;
+    font-family: Ubuntu_Light_Regular;
+    width: 176px;
+    height: 48px;
+    float: left;
+    border: 0px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    display: table;
+}
+
+    #buttonDetails div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+#footer {
+    width: 100%;
+    height: 320px;
+}
+
+#footerUp {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0,19,20);
+}
+
+#footerDown {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255,255,255);
+}

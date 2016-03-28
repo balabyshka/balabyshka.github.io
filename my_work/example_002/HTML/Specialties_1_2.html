@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="CoursesSwitcherApp">
+<head>
+    <title>Специальности</title>
+    <meta charset="utf-8" />
+    <link href="../CSS/stylesSpecialties.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="mainContainer" ng-controller="CoursesSwitcherAppCtrl" class="ng-cloak">
+        <div id="headerBack">
+            <div id="header">
+                <div id="logoUp">
+
+                </div>
+                <div id="naviContainer">
+                    <div id="firstLineNavi">
+                        <div class="contactButton">
+                            <span>Оформить заявку</span>
+                        </div>
+                        <div id="contacts">
+                            <span>
+                                +38 063 063 63 63
+                            </span>
+                            &nbsp;
+                            <img src="../pictures/rectangleBlue.png" />
+                            &nbsp;
+                            <span>
+                                skype:site.welcome
+                            </span>
+                        </div>
+                    </div>
+                    <div id="secondLineNavi">
+                        <div>
+                            Курсы программирования и цены
+                        </div>
+                        <div>
+                            Расписание
+                        </div>
+                        <div>
+                            Компаниям
+                        </div>
+                        <div>
+                            Обучение
+                        </div>
+                        <div>
+                            Новости
+                        </div>
+                        <div>
+                            Контакты
+                        </div>
+                        <div>
+                            О нас
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="image">
+            <div class="imageSlogan">
+                Выберите свою специальность
+            </div>
+        </div>
+        <div class="contentContainer">
+            <div class="contentHeader">
+
+                <img src="../pictures/smallbook.png" class="headerPic headerText" />
+
+                <div class="promo headerText">
+                    Акции и скидки
+                </div>
+                <a href="#">
+                    <div class="promoDetails headerText">
+                        Учись больше - плати меньше
+                    </div>
+                </a>
+            </div>
+            <div class="contentBody">
+                Информационные системы играют ключевую роль почти в любом бизнесе. Потребность в квалифицированных сотрудниках возрастает с каждым днем. Организации должны быть уверены в том, что уровень знаний и навыков специалистов, принимаемых на работу, полностью соответствует реалиям современного рынка, что они способны нести ответственность за принимаемые решения.Сотрудникам и соискателям, в свою очередь, нужны соответствующие документы, подтверждающие высокий уровень их знаний.
+                <br />
+                <br />
+                Учебный центр CyberBionic Systematics предлагает Вам широкий выбор курсов и специальностей, начиная от базовых основ и понятий и заканчивая освоением ведущих технологий платформы .NET. Выбор конкретной специальности помогает Вам определить перечень необходимых знаний и курсов для достижения поставленной цели. Определив направление обучения, Вы начинаете эффективно и рационально использовать время, спланированное на реализацию идеи в кротчайшие сроки.
+            </div>
+            <div class="buttonsContainer">
+                <ul>
+                    <li class="specialtiesButton active" id="javaDeveloper">
+                        Java Developer
+                    </li>
+                    <li class="specialtiesButton" id="javaUiDeveloper">
+                        Java UI Developer
+                    </li>
+                    <li class="specialtiesButton" id="androidDeveloper">
+                        Android Developer
+                    </li>
+                    <li class="specialtiesButton" id="javaSolutionArchitectDeveloper">
+                        Java Solution Architect Developer
+                    </li>
+                    <li class="specialtiesButton" id="webFrontendDeveloper">
+                        Web Frontend Developer
+                    </li>
+                    <li class="specialtiesButton" id="phpWebBackendDeveloper">
+                        PHP Web Backend Developer
+                    </li>
+                    <li class="specialtiesButton" id="javaWebBackendDeveloper">
+                        Java Web Backend Developer
+                    </li>
+                    <li class="specialtiesButton" id="dataBaseAdministrator">
+                        Data Base Administrator
+                    </li>
+                </ul>
+            </div>
+            <div id="specialtyTitle">
+                <h3 id="specialtyTitles">Java Developer</h3>
+            </div>
+            <div class="coursesHeader">
+                <div class="courseNameHeader">
+                    Название курса
+                </div>
+                <div class="courseLevelHeader">
+                    Уровень сложности
+                </div>
+                <div class="courseDurationHeader">
+                    Кол-во часов
+                </div>
+                <div class="coursePriceHeader">
+                    Цена
+                </div>
+            </div>
+            <div class="courses {{item.specialty}}" ng-repeat="item in items">
+                <div class="courseName">
+                    {{item.name}}
+                </div>
+                <div class="courseLevel {{item.level}}">
+
+                </div>
+                <div class="courseDuration">
+                    <!--{{item.durationDay}} {{item.dayDescription}}/-->{{item.durationHour}} {{item.hourDescription}}
+                </div>
+                <div class="coursePrice">
+                    {{item.price}} <span>{{item.currency}}</span>
+                </div>
+            </div>
+            <div class="coursesFooter">
+                <div class="courseNameFooter">
+                    Срок рекомендуемого обучения - X,X месяца
+                </div>
+                <div class="courseLevel">
+
+                </div>
+                <div class="courseDurationFooter">
+                    <!--<span id="courseDurationFooterDays"></span> <span id="daysDescriptor"></span>/--><span id="courseDurationFooterHours"></span> <span id="hoursDescriptor"></span>
+                </div>
+                <div class="coursePriceFooter">
+                    <span id="courseDurationFooterPrice"></span> <span>UAH</span>
+                </div>
+            </div>
+            <div class="coursesFooter">
+                <div class="courseNameFooter">
+                    Цена со скидкой 5%
+                </div>
+                <div class="courseLevel">
+
+                </div>
+                <div class="courseDurationFooter">
+
+                </div>
+                <div class="coursePriceFooter">
+                    <span id="courseDurationFooterPriceDiscount"></span> <span>UAH</span>
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <div id="buttonDetails">
+                        <div>
+                            Подробнее
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="contentBody">
+                WebCamp помогает Вам сформировать представление о будущей специальности. Поэтому, специально для Вас были разработаны наиболее актуальные IT-специальности, которые отвечают требованиям к специалистам ведущих IT-компаний. Мы рекомендуем выбирать наиболее востребованные специальности, поэтому, начиная с первых уроков базовых курсов, стараемся максимально помочь Вам в этом. Для этого, каждому студенту предлагается "Матрица компетентности специалиста", на которой отражены перечни всех курсов необходимых для выбранной специальности, а также распланирован график их прохождения.
+                <br />
+                <br />
+                Если Вы не определились со специальностью, мы рекомендуем проходить курс обучения пошагово, начиная с изучения «C# для начинающих», «С# для профессионалов» и т.д. Также допускается составление своей собственной программы обучения, состоящей из курсов, предлагаемых нашим Учебным Центром, успешное прохождение которой, дает право на получение сертификата или диплома.
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerUp">
+
+            </div>
+            <div id="footerDown">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../scripts/jquery-1.8.0.js"></script>
+    <script src="../scripts/angular.js"></script>
+    <script src="../scripts/coursesSwitcher.js"></script>
+    <script src="../scripts/specSelector.js"></script>
+</body>
+</html>
