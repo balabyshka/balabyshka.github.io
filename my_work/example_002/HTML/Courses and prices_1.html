@@ -6,11 +6,12 @@
     <link href="../CSS/stylesSpecialties.css" rel="stylesheet" />
 </head>
 <body>
+    <!-- begin mainContainer -->
     <div id="mainContainer" ng-controller="CoursesSwitcherAppCtrl" ng-cloak>
+        <!-- begin headerBack -->
         <div id="headerBack">
             <div id="header">
                 <div id="logoUp">
-
                 </div>
                 <div id="naviContainer">
                     <div id="firstLineNavi">
@@ -30,46 +31,28 @@
                         </div>
                     </div>
                     <div id="secondLineNavi">
-                        <div>
-                            Курсы программирования и цены
-                        </div>
-                        <div>
-                            Расписание
-                        </div>
-                        <div>
-                            Компаниям
-                        </div>
-                        <div>
-                            Обучение
-                        </div>
-                        <div>
-                            Новости
-                        </div>
-                        <div>
-                            Контакты
-                        </div>
-                        <div>
-                            О нас
-                        </div>
-
+                        <div>Курсы программирования и цены</div>
+                        <div>Расписание</div>
+                        <div>Компаниям</div>
+                        <div>Обучение</div>
+                        <div>Новости</div>
+                        <div>Контакты</div>
+                        <div>О нас</div>
                     </div>
-
-
                 </div>
-
-
             </div>
         </div>
+        <!-- end headerBack -->
         <div id="imageFon">
             <div class="imageSlogan">
                 Курсы <br> программирования <br> и цены
             </div>
         </div>
+        <!-- begin contentContainer -->
         <div class="contentContainer">
+            <!-- begin contentHeader -->
             <div class="contentHeader">
-
                 <img src="../pictures/smallbook.png" class="headerPic headerText" />
-
                 <div class="promo headerText">
                     Сертификаты по завершению обучения
                 </div>
@@ -79,33 +62,35 @@
                     </div>
                 </a>
             </div>
+            <!-- end contentHeader -->
+            <!-- begin contentBody -->
             <div class="contentBody">
                 Если Вы новичок в программировании, обратитесь за консультацией в <a href="#">службу поддержки </a>или воспользуйтесь <a href="#">Картой специальностей</a>, чтобы спланировать последовательное изучение программирования и сопутствующих технологий от простого к сложному.<br /><br />
-    Учебный курс включает в себя: <br /><br />
-    <ul>
-        <li class="red">
-            <span>
-                обучение в мини-группе в современной мультимедийной аудитории, предоставляется ноутбук, блокнот, ручка;
-            </span>
-        </li>
-        <li class="red">
-            <span>
-                материалы курса в электронном виде: краткий конспект каждого занятия, практические примеры, презентации;
-            </span>
-        </li>
-        <li class="red">
-            <span>
-                онлайн тестирование с целью проверки усвоения материала после каждого занятия и итоговое по всему курсу;
-            </span>
-        </li>
-        <li class="red">
-            <span>
-                сертификат о прохождении курса (в случае успешной сдачи финального теста)
-            </span>
-        </li>
-    </ul>
-</div>
-
+                Учебный курс включает в себя: <br /><br />
+                <ul>
+                    <li class="red">
+                        <span>
+                            обучение в мини-группе в современной мультимедийной аудитории, предоставляется ноутбук, блокнот, ручка;
+                        </span>
+                    </li>
+                    <li class="red">
+                        <span>
+                            материалы курса в электронном виде: краткий конспект каждого занятия, практические примеры, презентации;
+                        </span>
+                    </li>
+                    <li class="red">
+                        <span>
+                            онлайн тестирование с целью проверки усвоения материала после каждого занятия и итоговое по всему курсу;
+                        </span>
+                    </li>
+                    <li class="red">
+                        <span>
+                            сертификат о прохождении курса (в случае успешной сдачи финального теста)
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <!-- end contentBody -->
             <div id="coursesTitle">
                 <img src="../pictures/gear.png" />
                 &nbsp;ТРЕНИНГИ И КУРСЫ ПРОГРАММИРОВАНИЯ
@@ -132,9 +117,7 @@
 
                 </div>
                 <div class="courseDuration">
-
                     <!--{{item.durationDay}} {{item.dayDescription}}/-->{{item.durationHour}} {{item.hourDescription}}
-
                 </div>
                 <div class="coursePrice">
                     {{item.price}} <span>{{item.currency}}</span>
@@ -145,18 +128,17 @@
                 Пробное занятие предоставляется только на курсы, которые длятся 10 и более часов.
             </div>
         </div>
-
+        <!-- end contentContainer -->
+        <!-- begin footer -->
         <div id="footer">
             <div id="footerUp">
-
             </div>
             <div id="footerDown">
-
             </div>
-
         </div>
-
+        <!-- end footer -->
     </div>
+    <!-- end mainContainer -->
     <script src="../scripts/jquery-1.8.0.js"></script>
     <script src="../scripts/angular.js"></script>
     <script src="../scripts/coursesSwitcher.js"></script>

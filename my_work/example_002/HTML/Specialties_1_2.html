@@ -6,11 +6,12 @@
     <link href="../CSS/stylesSpecialties.css" rel="stylesheet" />
 </head>
 <body>
+    <!-- begin mainContainer -->
     <div id="mainContainer" ng-controller="CoursesSwitcherAppCtrl" class="ng-cloak">
+        <!-- begin headerBack -->
         <div id="headerBack">
             <div id="header">
                 <div id="logoUp">
-
                 </div>
                 <div id="naviContainer">
                     <div id="firstLineNavi">
@@ -51,25 +52,20 @@
                         <div>
                             О нас
                         </div>
-
                     </div>
-
-
                 </div>
-
-
             </div>
         </div>
+        <!-- end headerBack -->
         <div id="image">
             <div class="imageSlogan">
                 Выберите свою специальность
             </div>
         </div>
+        <!-- begin contentContainer -->
         <div class="contentContainer">
             <div class="contentHeader">
-
                 <img src="../pictures/smallbook.png" class="headerPic headerText" />
-
                 <div class="promo headerText">
                     Акции и скидки
                 </div>
@@ -135,7 +131,6 @@
                     {{item.name}}
                 </div>
                 <div class="courseLevel {{item.level}}">
-
                 </div>
                 <div class="courseDuration">
                     <!--{{item.durationDay}} {{item.dayDescription}}/-->{{item.durationHour}} {{item.hourDescription}}
@@ -149,7 +144,6 @@
                     Срок рекомендуемого обучения - X,X месяца
                 </div>
                 <div class="courseLevel">
-
                 </div>
                 <div class="courseDurationFooter">
                     <!--<span id="courseDurationFooterDays"></span> <span id="daysDescriptor"></span>/--><span id="courseDurationFooterHours"></span> <span id="hoursDescriptor"></span>
@@ -188,18 +182,17 @@
                 Если Вы не определились со специальностью, мы рекомендуем проходить курс обучения пошагово, начиная с изучения «C# для начинающих», «С# для профессионалов» и т.д. Также допускается составление своей собственной программы обучения, состоящей из курсов, предлагаемых нашим Учебным Центром, успешное прохождение которой, дает право на получение сертификата или диплома.
             </div>
         </div>
-
+        <!-- end contentContainer -->
+        <!-- begin footer -->
         <div id="footer">
             <div id="footerUp">
-
             </div>
             <div id="footerDown">
-
             </div>
-
         </div>
-
+        <!-- end footer -->
     </div>
+    <!-- end mainContainer -->
     <script src="../scripts/jquery-1.8.0.js"></script>
     <script src="../scripts/angular.js"></script>
     <script src="../scripts/coursesSwitcher.js"></script>
