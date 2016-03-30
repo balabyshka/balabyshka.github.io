@@ -92,8 +92,8 @@ body {
 
 .exampleFoto1 {
 	background: url(../image/example_001.png) no-repeat;
-	background-size: cover;
-	height: 200px;
+	background-size: cover; 
+	height: 200px;	
 }
 
 .exampleFoto2 {
@@ -114,11 +114,11 @@ body {
 	height: 200px;
 }
 
-/*.exampleFoto5 {
-	background: url(../image/example_001.png) no-repeat;
+.exampleFoto5 {
+	background: url(../image/example_005.png) no-repeat;
 	background-size: cover;
 	height: 200px;
-}*/
+}
 
 .footer {
 	border-top: 2px double blue;

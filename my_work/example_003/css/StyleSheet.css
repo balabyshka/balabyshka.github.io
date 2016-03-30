@@ -1,0 +1,142 @@
+@font-face {
+    font-family: RobotoLight; /* Имя шрифта */
+    src: url(fonts/robotoLight.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: RobotoThin; /* Имя шрифта */
+    src: url(fonts/robotoThin.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: RobotoBlack; /* Имя шрифта */
+    src: url(fonts/robotoBlack.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+	background: #2c3e50;\
+	/*background: #ffffff;*/
+}
+
+ .header {
+ 	height: 45px;
+ }
+
+.bodyHeader {
+	background: #2c3e50;
+}
+
+ .headerLogo, 
+ .headerNav, 
+ .headerEnter {
+ 	height: inherit;
+ 	text-align: center;
+ } 
+
+.logo {
+	width: 140px;
+	height: 45px;
+	background: #ffffff;
+	color: #239e57;
+	font-family: RobotoBlack;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.headerNavText {
+	color: #ffffff;
+}
+
+.headerNav {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.headerEnter {
+	padding-top: 5px;
+}
+
+.button {
+	width: 90px;
+	height: 34px;
+	background: #239e57;
+	/*text-align: center;*/
+	color: #ffffff;
+	float: right;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+
+.HeaderMainPic {
+	background: url(../image/slider_01.jpg) no-repeat;
+	height: 420px;
+	width: 100%;
+	text-align: center;
+	font-family: RobotoThin;
+}
+
+.contentMain p {
+	text-align: left;
+	font-size: 16px;
+}
+
+.HeaderMainPicText {
+	font-size: 45px;
+	padding-top: 100px;
+}
+
+.HeaderMainPicArrow {
+	padding-top: 180px;
+}
+
+.backroundWhite {
+	background: #fff;
+	padding-bottom: 40px;
+}
+
+.SideLeft {
+	margin-top: 65px;
+}
+
+.SideRightText {
+	margin-top: 45px;
+}
+
+.SideRightFoto {
+	background: url(../image/foto_001.jpg) no-repeat;
+	width: 100%;
+	height: 480px;
+	margin-top: 7px;
+}
+
+.registration {
+	background: url(../image/foto_002.jpg) no-repeat;
+
+	height: 520px;
+	width: 100%;
+	text-align: center;
+	/*margin-top: 40px;*/
+}
+
+.registrationForm {
+	height: 350px;
+	background: #fff;
+	margin-top: 7%;
+	padding-bottom: 30px;
+}
+
+.backroundWhite {
+	text-align: center;
+	background: #fff;
+	width: 100%;
+
+}
+
+.footer {
+	height: 45px;
+	color: #fff;
+		padding-top: 8px;
+		text-align: center;
+}
