@@ -108,11 +108,11 @@ body {
 	height: 200px;
 }
 
-/*.exampleFoto4 {
-	background: url(../image/example_001.png) no-repeat;
+.exampleFoto4 {
+	background: url(../image/example_004.png) no-repeat;
 	background-size: cover;
 	height: 200px;
-}*/
+}
 
 /*.exampleFoto5 {
 	background: url(../image/example_001.png) no-repeat;
