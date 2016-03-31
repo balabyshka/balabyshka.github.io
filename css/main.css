@@ -84,6 +84,18 @@ body {
 			background-size: cover; 
 			height: 200px;	
 		}
+			
+				.exampleFoto1 {
+					 -moz-transition: all 1s ease-out;
+					 -o-transition: all 1s ease-out;
+					 -webkit-transition: all 1s ease-out;
+				 }
+		 
+				.exampleFoto1:hover{
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
 
 		.exampleFoto2 {
 			background: url(../image/example_002.png) no-repeat;
@@ -91,11 +103,35 @@ body {
 			height: 200px;
 		}
 
+				.exampleFoto2 {
+					 -moz-transition: all 1s ease-out;
+					 -o-transition: all 1s ease-out;
+					 -webkit-transition: all 1s ease-out;
+				 }
+		 
+				.exampleFoto2:hover{
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
+
 		.exampleFoto3 {
 			background: url(../image/example_003.png) no-repeat;
 			background-size: cover;
 			height: 200px;
 		}
+
+				.exampleFoto3 {
+					 -moz-transition: all 1s ease-out;
+					 -o-transition: all 1s ease-out;
+					 -webkit-transition: all 1s ease-out;
+				 }
+		 
+				.exampleFoto3:hover{
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
 
 		.exampleFoto4 {
 			background: url(../image/example_004.png) no-repeat;
@@ -103,11 +139,35 @@ body {
 			height: 200px;
 		}
 
+				.exampleFoto4 {
+					 -moz-transition: all 1s ease-out;
+					 -o-transition: all 1s ease-out;
+					 -webkit-transition: all 1s ease-out;
+				 }
+		 
+				.exampleFoto4:hover{
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
+
 		.exampleFoto5 {
 			background: url(../image/example_005.png) no-repeat;
 			background-size: cover;
 			height: 200px;
 		}
+
+				.exampleFoto5 {
+					 -moz-transition: all 1s ease-out;
+					 -o-transition: all 1s ease-out;
+					 -webkit-transition: all 1s ease-out;
+				 }
+		 
+				.exampleFoto5:hover{
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
 /*-----  END contentMain  -----*/
 
 /*-----  begin FOOTER  -----*/
