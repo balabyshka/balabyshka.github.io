@@ -13,29 +13,19 @@ body {
     line-height: 135%;
 }
 
-#allmain {
+/*#allmain {
     width: 1200px;
     height: auto;
-    /*position: absolute;*/
     margin: auto;
-}
+}*/
 
 aside, nav, footer, header, section, wrapper, content {
     display: block;
 }
 
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
+ul {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
 
     /*----------------------------------
      
@@ -60,11 +50,8 @@ a:hover {
 
 
 .header {
-
 }
-
         .header_call {
-
         }
 
             .header_call .tel {
@@ -87,10 +74,7 @@ a:hover {
         padding: 30px 0 28px 0;
         }
         
-
-        .header_contact {
-            text-align: right;
-        }
+        .header_contact {text-align: right;}
 
             .mail {
                 margin: 25px 0;
@@ -98,9 +82,7 @@ a:hover {
                 color: #5a6b7b;
             }
 
-            .mailLangv :last-child {
-                color: #852e2d;
-            }
+            .mailLangv :last-child {color: #852e2d;}
 
             .mail .mailEmail {
                 margin-top: 100px;
@@ -117,9 +99,8 @@ a:hover {
                     padding: 2px 2px;
                     margin-top: 140px;
                 }
-                .header_call .telText {
-                    margin-top: 142px;
-                }
+                .header_call .telText {margin-top: 142px;}
+
                 .telText p {
                     font-size: 12px;
                     margin:0;
@@ -128,19 +109,12 @@ a:hover {
                 text-align: center;
                 padding: 20px 0 10px 0;
                 }
-                 .mail .mailTel {
-                      font-size: 12px;
-            }
+                 .mail .mailTel {font-size: 12px;}
     }
-
-
-          
-
 
 .topMenu {
             height: 57px;
             width: inherit;
-            /*position: absolute;*/
             left: 0px;
             border: 0px solid #1FA2E1;
             background: #842c2b;
@@ -154,9 +128,7 @@ a:hover {
                     text-align: center;
                 }
 
-                .topMenu ul {
-                    padding-left: 0px;
-                }
+                .topMenu ul {padding-left: 0px;}
 
                     .topMenu ul li a {
                         margin-top: 0px;

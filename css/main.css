@@ -13,11 +13,12 @@ body {
     line-height: 135%;
 }
 
-@font-face {
-	font-family: title;
-	src: url(../fonts/fontawesome-webfont.woff2);
-}
+	@font-face {
+		font-family: title;
+		src: url(../fonts/fontawesome-webfont.woff2);
+	}
 
+/*-----  begin HEADER  -----*/
 .header {
 	height: 150px;
 	border-bottom: 2px double blue;
@@ -30,119 +31,107 @@ body {
 	padding-top: 30px;
 }
 
-/*.contact {
-	text-align: center;
-	padding-top: 40px;
-}*/
-
 .headerText {
 	padding-top: 40px;
 	font-size: 16px;
 	text-align: justify;
 }
 
-@media screen and (max-width: 991px) {
-	.headerText {
-		padding-top: 20px;
-	}
-}
+		@media screen and (max-width: 991px) {
+			.headerText {
+				padding-top: 20px;
+			}
+		}
 
-@media screen and (max-width: 767px) {
-	.header {
-		height: 230px;
-		border-bottom: 2px double blue;
-	}
-	.logo {
-		padding-top: 15px;
-		text-align: center;
-	}
-}
+		@media screen and (max-width: 767px) {
+			.header {
+				height: 230px;
+				border-bottom: 2px double blue;
+			}
+			.logo {
+				padding-top: 15px;
+				text-align: center;
+			}
+		}
 
-.contentMain {
-	padding-top: 30px;
-}
+/*-----  END HEADER  -----*/
 
-.works {
-	height: 26px;
-	padding-left: 15px;
-	margin-bottom: 10px;
-}
+/*-----  begin contentMain  -----*/
+.contentMain {padding-top: 30px;}
 
-.worksImg {
-	float: left;
-	height: 26px;
-	width: 26px;
-}
+		.works {
+			height: 26px;
+			padding-left: 15px;
+			margin-bottom: 10px;
+		}
 
-.worksText {
-	font-size: 22px;
-} 
+		.worksImg {
+			float: left;
+			height: 26px;
+			width: 26px;
+		}
 
-.example {
-	text-align: center;
-}
+		.worksText {font-size: 22px;} 
 
-.exampleButton {
-	padding-top: 20px;
-}
+.example {text-align: center;}
 
-.exampleText {
-	padding-top: 10px;
-}
+.exampleButton {padding-top: 20px;}
 
-.exampleFoto1 {
-	background: url(../image/example_001.png) no-repeat;
-	background-size: cover; 
-	height: 200px;	
-}
+.exampleText {padding-top: 10px;}
 
-.exampleFoto2 {
-	background: url(../image/example_002.png) no-repeat;
-	background-size: cover;
-	height: 200px;
-}
+		.exampleFoto1 {
+			background: url(../image/example_001.png) no-repeat;
+			background-size: cover; 
+			height: 200px;	
+		}
 
-.exampleFoto3 {
-	background: url(../image/example_003.png) no-repeat;
-	background-size: cover;
-	height: 200px;
-}
+		.exampleFoto2 {
+			background: url(../image/example_002.png) no-repeat;
+			background-size: cover;
+			height: 200px;
+		}
 
-.exampleFoto4 {
-	background: url(../image/example_004.png) no-repeat;
-	background-size: cover;
-	height: 200px;
-}
+		.exampleFoto3 {
+			background: url(../image/example_003.png) no-repeat;
+			background-size: cover;
+			height: 200px;
+		}
 
-.exampleFoto5 {
-	background: url(../image/example_005.png) no-repeat;
-	background-size: cover;
-	height: 200px;
-}
+		.exampleFoto4 {
+			background: url(../image/example_004.png) no-repeat;
+			background-size: cover;
+			height: 200px;
+		}
 
+		.exampleFoto5 {
+			background: url(../image/example_005.png) no-repeat;
+			background-size: cover;
+			height: 200px;
+		}
+/*-----  END contentMain  -----*/
+
+/*-----  begin FOOTER  -----*/
 .footer {
 	border-top: 2px double blue;
 	padding: 15px 0 15px 0;
-	/*height: 20px;*/
 }
 
-.footerSocial {
-	text-align: right;
-}
+		.footerSocial {text-align: right;}
 
-.footerGh {
-	background: url(../image/github3.png) no-repeat;
-	background-size: cover;
-	height: 25px;
-	width: 25px;
-	float: right;
-}
+		.footerGh {
+			background: url(../image/github3.png) no-repeat;
+			background-size: cover;
+			height: 25px;
+			width: 25px;
+			float: right;
+		}
 
-.footerIn {
-	background: url(../image/linkdn5.png) no-repeat;
-	background-size: cover;
-	height: 25px;
-	width: 25px;
-	float: right;
-	margin-right: 10px;
+		.footerIn {
+			background: url(../image/linkdn5.png) no-repeat;
+			background-size: cover;
+			height: 25px;
+			width: 25px;
+			float: right;
+			margin-right: 10px;
 }
+/*-----  END contentMain  -----*/
