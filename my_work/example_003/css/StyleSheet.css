@@ -23,32 +23,45 @@ body {
 
  .header {height: 45px;}
 
- .headerLogo, 
- .headerNav, 
- .headerEnter {
- 	height: inherit;
- 	text-align: center;
- } 
+     .headerLogo,
+     .headerNav,
+     .headerEnter {
+     	height: inherit;
+     	text-align: center;
+     }
 
-.logo {
-	width: 140px;
-	height: 45px;
-	background: #ffffff;
-	color: #239e57;
-	font-family: RobotoBlack;
-	text-transform: uppercase;
-	font-size: 20px;
-	padding-top: 5px;
-}
+    .logo {
+    	width: 140px;
+    	height: 45px;
+    	background: #ffffff;
+    	color: #239e57;
+    	font-family: RobotoBlack;
+    	text-transform: uppercase;
+    	font-size: 20px;
+    	padding-top: 8px;
+    }
 
-.headerNav {
-	text-align: center;
-	padding-top: 10px;
-}
+    .headerNav {
+    	text-align: center;
+    	padding-top: 10px;
+    }
 
 		.headerNavText {color: #ffffff;}
 
-.headerEnter {padding-top: 5px;}
+        @media screen and (max-width:767px) {
+            .headerNavText>div {
+                float: left;
+            }
+            .headerLogo,
+            .headerNav{
+            	float: left;
+            }
+            .headerEnter {
+            	float: right;
+            }
+        }
+
+    .headerEnter {padding-top: 5px;}
 
 		.button {
 			width: 90px;
@@ -72,21 +85,39 @@ body {
 	font-family: RobotoThin;
 }
 
+      @media screen and (max-width:767px) {
+          .HeaderMainPic {
+            height: 320px;
+          }
+      }
+
 		.HeaderMainPicText {
 			font-size: 45px;
 			padding-top: 100px;
 		}
 
+        @media screen and (max-width:767px) {
+            .HeaderMainPicText {
+              padding-top: 50px;
+            }
+        }
+
 		.HeaderMainPicArrow {
 			padding-top: 180px;
 		}
+
+    @media screen and (max-width:767px) {
+      .HeaderMainPicArrow {
+  			  visibility: hidden;
+  		}
+    }
 /*-----  END HeaderMainPic  -----*/
 
 /*-----  begin backroundWhite  -----*/
-.backroundWhite {
-	background: #fff;
-	padding-bottom: 40px;
-}
+  .backroundWhite {
+    	background: #fff;
+    	padding-bottom: 40px;
+  }
 
 		.contentMain p {
 			text-align: left;
@@ -102,9 +133,9 @@ body {
 		}
 
 		.SideRightFoto {
-			background: url(../image/foto_001.jpg) no-repeat;
-			width: 100%;
-			height: 480px;
+		/*	background: url(../image/foto_001.jpg) no-repeat; */
+
+
 			margin-top: 7px;
 		}
 /*-----  END backroundWhite  -----*/
@@ -135,7 +166,7 @@ body {
 		.footer {
 			height: 45px;
 			color: #fff;
-				padding-top: 8px;
-				text-align: center;
+			padding-top: 8px;
+			text-align: center;
 		}
 /*-----  END footer  -----*/
