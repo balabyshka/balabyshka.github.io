@@ -142,6 +142,12 @@ a:hover {text-decoration: none;}
                         padding: 16px 20px 21px 20px;
                     }
 
+                    @media screen and (max-width: 991px) {
+                            .topMenu ul li a {
+                                font-size: 14px;
+                            }
+                    }
+
                         .topMenu ul li a:hover {
                             background: #fff;
                             color: #555;
@@ -198,7 +204,7 @@ a:hover {text-decoration: none;}
         }
 
         .shadowText {
-            font-size: 70%;
+            font-size: 60%;
         }
         .shadowDiv {
                 width: 200px;
@@ -206,7 +212,7 @@ a:hover {text-decoration: none;}
                 margin-left: 40px;        
             }
             .shadowDiv p {
-                font-size: 70%;
+                font-size: 60%;
                 padding-top: 15px;
             }
     }
@@ -350,12 +356,19 @@ a:hover {text-decoration: none;}
             text-align: center;
             font-size: 150%;
         }
+
+        @media screen and (max-width: 991px) {
+            .meetRight {
+                padding-top: 9px;
+            }
+        }
+
         .meetRight p {
             margin-top: 9%;
         }
         @media screen and (max-width: 767px) {
             .meetRight p {
-                margin-top: 23px;
+                margin-top: 18px;
             }
         }
 
