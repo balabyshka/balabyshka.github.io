@@ -176,6 +176,12 @@ body {
 	padding: 15px 0 15px 0;
 }
 
+
+    .footerText p {
+        margin: 5px 0 0 0;
+        font-size: 12px;
+    }
+
 		.footerSocial {text-align: right;}
 
 		.footerGh {
