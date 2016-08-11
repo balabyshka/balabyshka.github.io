@@ -170,6 +170,47 @@ body {
 				 }
 /*-----  END contentMain  -----*/
 
+/*-----   begin contantMain2   -----*/
+.example_FA {
+	background: url(../image/fa.png) no-repeat;
+}
+.example_SYOSS {
+	background: url(../image/syoss.png) no-repeat;
+}
+.example_TIOMA {
+	background: url(../image/tioma.png) no-repeat;
+}
+.example_VOLIA {
+	background: url(../image/volia.png) no-repeat;
+}
+
+.example_FA, 
+.example_SYOSS,
+.example_TIOMA,
+.example_VOLIA {
+	background-size: cover; 
+	height: 200px;	
+}
+	.example_FA,
+	.example_SYOSS,
+	.example_TIOMA,
+	.example_VOLIA {
+		-moz-transition: all 1s ease-out;
+		-o-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;
+	}
+		 
+	.example_FA:hover,
+	.example_SYOSS:hover,
+	.example_TIOMA:hover,
+	.example_VOLIA:hover {
+					 -webkit-transform: scale(1.1);
+					 -moz-transform: scale(1.1);
+					 -o-transform: scale(1.1);
+				 }
+			
+/*-----  END contentMain  -----*/
+
 /*-----  begin FOOTER  -----*/
 .footer {
 	border-top: 2px double blue;
