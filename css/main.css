@@ -183,18 +183,23 @@ body {
 .example_VOLIA {
 	background: url(../image/volia.png) no-repeat;
 }
+.example_coconut {
+	background: url(../image/coconut.png) no-repeat;
+}
 
 .example_FA, 
 .example_SYOSS,
 .example_TIOMA,
-.example_VOLIA {
+.example_VOLIA,
+.example_coconut {
 	background-size: cover; 
 	height: 200px;	
 }
 	.example_FA,
 	.example_SYOSS,
 	.example_TIOMA,
-	.example_VOLIA {
+	.example_VOLIA,
+	.example_coconut {
 		-moz-transition: all 1s ease-out;
 		-o-transition: all 1s ease-out;
 		-webkit-transition: all 1s ease-out;
@@ -203,7 +208,8 @@ body {
 	.example_FA:hover,
 	.example_SYOSS:hover,
 	.example_TIOMA:hover,
-	.example_VOLIA:hover {
+	.example_VOLIA:hover,
+	.example_coconut:hover {
 					 -webkit-transform: scale(1.1);
 					 -moz-transform: scale(1.1);
 					 -o-transform: scale(1.1);
