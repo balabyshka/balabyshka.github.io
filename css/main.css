@@ -57,7 +57,11 @@ body {
 /*-----  END HEADER  -----*/
 
 /*-----  begin contentMain  -----*/
-.contentMain {padding-top: 30px;}
+.contentMain {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px double blue;
+}
 
 		.works {
 			height: 26px;
@@ -71,7 +75,9 @@ body {
 			width: 26px;
 		}
 
-		.worksText {font-size: 22px;} 
+		.worksText {
+			font-size: 22px;
+		} 
 
 .example {text-align: center;}
 
