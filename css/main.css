@@ -186,12 +186,20 @@ body {
 .example_coconut {
 	background: url(../image/coconut.png) no-repeat;
 }
+.example_schwarzkopf {
+	background: url(../image/schwarzkopf.png) no-repeat;
+}
+.example_fa_fine_life {
+	background: url(../image/fa_faine_life.png) no-repeat;
+}
 
 .example_FA, 
 .example_SYOSS,
 .example_TIOMA,
 .example_VOLIA,
-.example_coconut {
+.example_coconut,
+.example_schwarzkopf,
+.example_fa_fine_life {
 	background-size: cover; 
 	height: 200px;	
 }
@@ -199,7 +207,9 @@ body {
 	.example_SYOSS,
 	.example_TIOMA,
 	.example_VOLIA,
-	.example_coconut {
+	.example_coconut,
+	.example_schwarzkopf,
+	.example_fa_fine_life {
 		-moz-transition: all 1s ease-out;
 		-o-transition: all 1s ease-out;
 		-webkit-transition: all 1s ease-out;
@@ -209,7 +219,9 @@ body {
 	.example_SYOSS:hover,
 	.example_TIOMA:hover,
 	.example_VOLIA:hover,
-	.example_coconut:hover {
+	.example_coconut:hover,
+	.example_schwarzkopf:hover,
+	.example_fa_fine_life:hover {
 					 -webkit-transform: scale(1.1);
 					 -moz-transform: scale(1.1);
 					 -o-transform: scale(1.1);
