@@ -63,6 +63,24 @@ body {
 	border-bottom: 1px double blue;
 }
 
+		.banners {
+			height: 26px;
+			padding-left: 15px;
+			margin-bottom: 10px;
+		}
+
+		.bannerExample {
+			padding-left: 45px;
+			padding-bottom: 20px;
+			margin-bottom: 10px;
+		}
+
+		.bannerExample p {
+			margin: 13px 0 0;
+			font-size: 16px;
+			font-weight: 600;
+		}
+
 		.works {
 			height: 26px;
 			padding-left: 15px;
